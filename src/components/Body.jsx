@@ -1,7 +1,7 @@
 import React from "react";
 
-const Body = ({ body }) => {
-  return <div>{body}</div>;
+const Body = ({ pageBody }) => {
+  return <div>{pageBody}</div>;
 };
 
 export default Body;

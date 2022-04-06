@@ -9,8 +9,8 @@ function App() {
   };
   return (
     <Page>
-      <Header title={site.pageTitle} />
-      <Main body={site.pageBody} />
+      <Header pageTitle={site.pageTitle} />
+      <Main pageBody={site.pageBody} />
     </Page>
   );
 }
